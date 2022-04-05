@@ -14,7 +14,6 @@ body {
 
 .series--black {
     width: 1000px;
-    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Black_flag.svg/1024px-Black_flag.svg.png');
     z-index:20;
 }
 
@@ -80,6 +79,7 @@ body {
     cursor: pointer;
     font-weight: bold;
     transition: all ease 0.3s;
+    margin-bottom: 70px;
 }
 
 .series-btn a:hover {
@@ -112,6 +112,7 @@ body {
     cursor: pointer;
     font-weight: bold;
     transition: all ease 0.3s;
+    margin-bottom: 70px;
 }
 
 .series-btn-more a:hover {

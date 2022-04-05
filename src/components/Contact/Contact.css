@@ -53,3 +53,55 @@ body {
 .Icons a:hover {
     opacity: 0.5;
 }
+
+.Icons--facebook {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.iconFacebook {
+    width: 22px;
+    height: 22px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.iconFacebook:hover {
+    opacity: 0.5;
+}
+
+.Icons--instagram {
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+}
+
+.iconInstagram {
+    width: 22px;
+    height: 22px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.iconInstagram:hover {
+    opacity: 0.5;
+}
+
+.Icons--twitter {
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+}
+
+.iconTwitter {
+    width: 22px;
+    height: 22px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.iconTwitter:hover {
+    opacity: 0.5;
+}
