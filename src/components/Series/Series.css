@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Open+Sans:wght@400;500;600;700&display=swap');
+
+body {
+    font-family: 'Open sans', sans-serif;
+}
+
+.series {
+    display: flex;
+    width: inherit;
+    height: inherit;
+
+    z-index: 10;
+}
+
+.series--black {
+    width: 1000px;
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Black_flag.svg/1024px-Black_flag.svg.png');
+    z-index:20;
+}
+
+.series--info {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: right;
+    justify-content: center;
+}
+
+.imagebackground {
+    overflow-x: hidden;
+    object-fit: cover;
+    width: 100%;
+    z-index: 1;
+    max-height: 1000px;
+    overflow-y: hidden;
+}
+
+.imageserie {
+    z-index: 1;
+}
+
+.series--title {
+    font-size: 100px;
+    z-index: 12;
+    width: 1000px;
+    flex: 1;
+    background: linear-gradient(to right, rgb(0, 0, 0) 30%, transparent 70%);
+    display: flex;
+    align-items: center;
+}
+
+.series--black{
+    width: inherit;
+    height: inherit;
+    background: linear-gradient(to right, #111 30%, transparent 70%);
+}
+
+.series--resume {
+    font-size: 18px;
+    max-width: 40%;
+}
+
+.series-btn {
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.series-btn a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
+    width: 180px;
+    height: 60px;
+    font-size: 20px;
+    border-radius: 40px;
+    background-color: #5e1adb;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all ease 0.3s;
+}
+
+.series-btn a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.series-all-btn {
+    display: flex;
+    justify-content: space-around;
+    padding: 0px 220px;
+}
+
+.series-btn-more {
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.series-btn-more a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
+    width: 180px;
+    height: 60px;
+    font-size: 20px;
+    border-radius: 40px;
+    background-color: #5e1adb;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all ease 0.3s;
+}
+
+.series-btn-more a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}

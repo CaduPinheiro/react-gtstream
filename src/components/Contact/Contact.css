@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Open+Sans:wght@400;500;600;700&display=swap');
+
+body {
+    background-color: #000;
+    color: #e7e7e7;
+    font-family: 'Open sans', sans-serif;
+}
+
+.Contact {
+    display: flex;
+}
+
+.Image {
+    width: 300px;
+    height: 300px;
+    border-radius: 150px;
+    overflow-y: auto;
+    background-color: #E5DDD5;
+    background-size: cover;
+    background-position: center;
+    background-image: url('https://i.ibb.co/zRb3yrp/logo.png');
+    margin: 50px 200px 0px 150px;
+}
+
+.Info {
+    margin: 50px 0px 0px 0px;
+    width: 500px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #121212;
+}
+
+.Info h1 {
+    font-weight: 500;
+    font-style: normal;
+}
+
+.Icons {
+    margin: 40px 0px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Icons a{
+    margin: 6px 0px;
+    cursor: pointer;
+}
+
+.Icons a:hover {
+    opacity: 0.5;
+}
